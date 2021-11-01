@@ -1,0 +1,2 @@
+# Alarm system GPyDem
+SUBSYSTEM=="tty", ACTION=="add", ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1003", SYMLINK+="ttyUSBalarmE220"
